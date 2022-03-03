@@ -1,4 +1,4 @@
-# LilyGo W5500 Lite
+# LilyGo W5500 Lite - Wake on Lan & Webconfigurator
 
 - Need to rely on two library files in libdeps
 
