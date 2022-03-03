@@ -26,5 +26,6 @@ OLED_SDA       21
   - Configuration mode can be accessed using the ESP_DoubleResetDetector library. Simply reset the T-LITE twice within 10 seconds.
 
 - `T-LITE_WebConfig` allows you to setup the ethernet gateway as a static connection or automatic DHCP connection, as well as configure the WiFi connection. After that, simply add in whatever code you may need. Default WiFi password is `Wlan_Config`.
+  - You can also disable WiFi entirely through the configurator. 
 
 - Included in the examples folder are two sketches demonstrating the double client and double server capabilities of the T-LITE based on the `T-LITE_WebConfig` sketch.
