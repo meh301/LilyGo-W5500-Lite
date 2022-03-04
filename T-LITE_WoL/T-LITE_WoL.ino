@@ -87,7 +87,7 @@ void wakeMyPC() { //Basic Wake on Lan implementation based on https://github.com
   Udp.beginPacket(_ip, port);
   Udp.write(preamble, sizeof preamble);
   for (i = 0; i < 16; i++) {
-    Udp.write(mac, sizeof preamble); // we loop the mac address 16 times to create the WoL packet
+    Udp.write(MAC, sizeof preamble); // we loop the mac address 16 times to create the WoL packet
   }
   Udp.endPacket();
   Serial.println("Sent Magic Packet");
